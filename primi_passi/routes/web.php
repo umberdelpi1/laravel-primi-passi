@@ -4,6 +4,6 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    $nav = ['Home', 'Chi siamo', 'Contattaci', 'Blog'];
+    $nav = ['Instagram', 'Facebook',];
     return view('welcome', compact('nav'));
 });

@@ -1,6 +1,6 @@
 header {
-  background: blue;
-  height: 30vh;
+  background: white;
+  height: 10vh;
 }
 
 header .container {
@@ -11,27 +11,47 @@ header .container {
   align-items: center;
 }
 
-header .container h1 {
+header .container .nav {
+  width: 20%;
+}
+
+header .container .nav h1 {
   text-align: center;
 }
 
-header .container ul {
-  width: 100%;
+header .container .nav ul {
+  margin: 0 auto;
   display: flex;
   list-style-type: none;
   justify-content: space-between;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-header .container ul li a {
+header .container .nav ul li a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 main {
-  background: lightblue;
-  height: 70vh;
+  background: black;
+  height: 700px;
+}
+
+main .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container .video {
+  margin: 90px auto;
+}
+
+main .container .video img {
+  width: 720px;
+  height: 500px;
 }
 
 main .container h1 {
@@ -39,8 +59,24 @@ main .container h1 {
 }
 
 footer {
-  background: purple;
-  height: 50vh;
+  background: white;
+  height: 100px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .container .logo {
+  height: 100px;
+  width: 200px;
+}
+
+footer .container .logo img {
+  width: 300px;
+  height: 200px;
 }
 
 footer .container h1 {
