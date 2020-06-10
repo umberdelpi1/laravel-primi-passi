@@ -1,4 +1,5 @@
 <div class="nav">
+  {{-- <img src="img/logo.png" alt=""> --}}
   <ul>
     @foreach ($nav as $elenco)
       <li>

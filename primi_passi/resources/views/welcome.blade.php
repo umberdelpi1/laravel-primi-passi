@@ -27,5 +27,18 @@
       @include('footer')
       </div>
     </footer>
+    <script>
+      function initMap() {
+
+        var napoli = {lat: 40.5122, lng: 14.1447};
+
+        var map = new google.maps.Map(
+            document.getElementById('map'), {zoom: 4, center: napoli});
+
+        var marker = new google.maps.Marker({position: napoli, map: map});
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYiOF689tAwd7Py1Whl4KooEb-nUkFPpQ&callback=initMap"
+    async defer></script>
   </body>
 </html>

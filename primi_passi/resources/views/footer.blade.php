@@ -1,3 +1,3 @@
 <div class="logo">
-  <img src="img/logo.png" alt="">
+  <div id="map"></div>
 </div>
